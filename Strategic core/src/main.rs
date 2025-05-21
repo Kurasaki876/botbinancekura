@@ -1,6 +1,6 @@
-mod config;
-mod logger;
-mod engine;
+use ia_strategic_core::config;
+use ia_strategic_core::engine;
+use ia_strategic_core::logger;
 
 #[tokio::main]
 async fn main() {

@@ -4,14 +4,14 @@ min_volume = 100000
 max_spread = 0.3
 timeframes = ["5m", "15m", "1h", "4h"]
 
-[strategy.ssl_ema]
+[strategies.ssl_ema]
 enabled = true
 
-[strategy.trend_meter_ema_atr]
+[strategies.trend_meter_ema_atr]
 enabled = true
 
-[strategy.ma_insilico]
+[strategies.squeeze_momentum_atr]
 enabled = true
 
-[strategy.supertrend_qqe_trend_a]
+[strategies.supertrend_qqe_trend_a]
 enabled = true
