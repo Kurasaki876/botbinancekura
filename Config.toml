@@ -1,0 +1,17 @@
+[settings]
+use_ai_validation = true
+min_volume = 100000
+max_spread = 0.3
+timeframes = ["5m", "15m", "1h", "4h"]
+
+[strategy.ssl_ema]
+enabled = true
+
+[strategy.trend_meter_ema_atr]
+enabled = true
+
+[strategy.ma_insilico]
+enabled = true
+
+[strategy.supertrend_qqe_trend_a]
+enabled = true
